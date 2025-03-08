@@ -8,6 +8,8 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon">
+    <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" type="image/x-icon">
     {% seo %}
   </head>
   <body>
@@ -30,7 +32,39 @@
     </nav>
     
     <main class="container">
+      {% if page.url == "/" %}
+      <div class="hero-nav">
+        <a href="{{ '/Event_Planning/Invitations_and_Announcements/share_your_story.html' | relative_url }}" class="hero-nav-button primary">Share Your Story</a>
+        <a href="{{ '/Event_Planning/timeline.html' | relative_url }}" class="hero-nav-button">View Timeline</a>
+        <a href="{{ '/Photos_and_Memories/gallery.html' | relative_url }}" class="hero-nav-button">Photo Gallery</a>
+        <a href="#contact-information" class="hero-nav-button">Contact Us</a>
+      </div>
+      {% endif %}
+      
       {{ content }}
+      
+      {% unless page.url == "/" %}
+      <div class="section">
+        <h2>Continue Exploring</h2>
+        <div class="hero-nav">
+          {% if page.url != "/Event_Planning/Invitations_and_Announcements/share_your_story.html" %}
+          <a href="{{ '/Event_Planning/Invitations_and_Announcements/share_your_story.html' | relative_url }}" class="hero-nav-button">Share Your Story</a>
+          {% endif %}
+          
+          {% if page.url != "/Event_Planning/timeline.html" %}
+          <a href="{{ '/Event_Planning/timeline.html' | relative_url }}" class="hero-nav-button">View Timeline</a>
+          {% endif %}
+          
+          {% if page.url != "/Photos_and_Memories/gallery.html" %}
+          <a href="{{ '/Photos_and_Memories/gallery.html' | relative_url }}" class="hero-nav-button">Photo Gallery</a>
+          {% endif %}
+          
+          {% if page.url != "/Event_Planning/Invitations_and_Announcements/rsvp.html" %}
+          <a href="{{ '/Event_Planning/Invitations_and_Announcements/rsvp.html' | relative_url }}" class="hero-nav-button primary">RSVP for the Event</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endunless %}
     </main>
     
     <footer class="site-footer">

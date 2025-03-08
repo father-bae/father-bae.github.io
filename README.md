@@ -6,7 +6,12 @@
 
 This repository contains materials and planning documents for a special tribute event honoring Father Joseph Veneroso, a beloved Maryknoll priest who has served the St. Paul Chong-ha Sang Roman Catholic Church community in Flushing, NY for decades.
 
-**[Share Your Story](Event_Planning/Invitations_and_Announcements/share_your_story.md)** | **[View Timeline](Event_Planning/timeline.md)** | **[Photo Gallery](Photos_and_Memories/gallery.md)** | **[Contact Us](#contact-information)**
+<div class="hero-nav">
+  <a href="Event_Planning/Invitations_and_Announcements/share_your_story.md" class="hero-nav-button primary">Share Your Story</a>
+  <a href="Event_Planning/timeline.md" class="hero-nav-button">View Timeline</a>
+  <a href="Photos_and_Memories/gallery.md" class="hero-nav-button">Photo Gallery</a>
+  <a href="#contact-information" class="hero-nav-button">Contact Us</a>
+</div>
 
 ## Project Overview
 
@@ -59,10 +64,12 @@ This project requires community participation. We are seeking:
 
 ### How to Contribute
 
-1. **Share Your Story**: Submit your memories and stories about Father Bae through our [online form](Event_Planning/Invitations_and_Announcements/share_your_story.md)
-2. **Submit Photos**: Email your photos to [email@example.com](mailto:email@example.com) or bring them to our scanning sessions
-3. **Volunteer**: Sign up to help with the event by contacting our [Event Coordinator](#contact-information)
-4. **Spread the Word**: Share this website with other parishioners and friends of Father Bae
+<div class="hero-nav">
+  <a href="Event_Planning/Invitations_and_Announcements/share_your_story.md" class="hero-nav-button">Share Your Story</a>
+  <a href="mailto:email@example.com" class="hero-nav-button">Submit Photos</a>
+  <a href="#contact-information" class="hero-nav-button">Volunteer</a>
+  <a href="https://twitter.com/intent/tweet?text=Join%20us%20in%20honoring%20Father%20Joseph%20Veneroso%20(Father%20Bae)%20at%20St.%20Paul%20Chong-ha%20Sang%20Church.%20Learn%20more%20at%20https://yourusername.github.io/Father_Bae_Tribute/" class="hero-nav-button">Spread the Word</a>
+</div>
 
 ## Contact Information
 
