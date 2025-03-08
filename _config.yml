@@ -1,0 +1,46 @@
+title: Father Joseph Veneroso (Father Bae) Tribute
+description: A tribute to Father Joseph Veneroso's impact on the St. Paul Chong-ha Sang Roman Catholic Church community
+theme: jekyll-theme-cayman
+
+# Social media
+social:
+  facebook: https://facebook.com/stpaulchonghasang
+  twitter: 
+  instagram:
+
+# Contact information
+contact:
+  email: example@example.com
+  phone: (212) 555-1234
+  address: St. Paul Chong-ha Sang Church, 32-15 Parsons Boulevard, Flushing, NY 11354
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Timeline
+    url: /Event_Planning/timeline
+  - title: Photo Gallery
+    url: /Photos_and_Memories/gallery
+  - title: Share Your Story
+    url: /Event_Planning/Invitations_and_Announcements/share_your_story
+  - title: RSVP
+    url: /Event_Planning/Invitations_and_Announcements/rsvp
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+
+# Custom settings
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here 
