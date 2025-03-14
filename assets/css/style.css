@@ -172,6 +172,72 @@ body {
   transform: scale(1.02);
 }
 
+/* Content Images */
+.content-image {
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.content-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.content-image:hover img {
+  transform: scale(1.02);
+}
+
+.content-image-right {
+  float: right;
+  max-width: 45%;
+  margin: 0 0 1.5rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.content-image-right:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.content-image-left {
+  float: left;
+  max-width: 45%;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.content-image-left:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.image-caption {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  padding: 0.75rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.content-image:hover .image-caption {
+  opacity: 1;
+}
+
 /* Lead Text */
 .lead {
   font-size: 1.2rem;
@@ -443,6 +509,13 @@ blockquote cite {
   
   .timeline-date {
     margin-bottom: 0.5rem;
+  }
+  
+  .content-image-right,
+  .content-image-left {
+    float: none;
+    max-width: 100%;
+    margin: 1.5rem 0;
   }
 }
 

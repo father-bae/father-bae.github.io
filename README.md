@@ -1,6 +1,6 @@
 # Father Joseph Veneroso (Father Bae) Tribute Project
 
-![Father Bae Banner](assets/images/father_bae_banner.jpg)
+![Father Bae Banner](assets/images/2025-advent-maryknoll.png)
 
 > "In the spirit of mission, we find our true selves." - Father Joseph Veneroso
 

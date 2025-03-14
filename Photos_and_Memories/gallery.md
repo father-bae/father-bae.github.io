@@ -2,6 +2,12 @@
 
 <div class="gallery">
   <div class="gallery-item">
+    <img src="../assets/images/2024-newyears.JPG" alt="Father Bae celebrating New Year's 2024">
+  </div>
+  <div class="gallery-item">
+    <img src="../assets/images/2025-advent-maryknoll.png" alt="Father Bae at Maryknoll Advent celebration">
+  </div>
+  <div class="gallery-item">
     <img src="../assets/images/placeholder1.jpg" alt="Father Bae during his early missionary work in Korea, 1970s">
   </div>
   <div class="gallery-item">
