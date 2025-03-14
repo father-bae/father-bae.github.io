@@ -155,10 +155,12 @@ body {
 
 /* Hero Image */
 .hero-image {
-  margin: 2rem 0;
+  margin: 2rem auto;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 400px;
+  text-align: center;
 }
 
 .full-width-image {
@@ -166,10 +168,39 @@ body {
   height: auto;
   display: block;
   transition: transform 0.5s;
+  border-radius: 8px;
 }
 
 .hero-image:hover .full-width-image {
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+
+/* Featured Image in Gallery */
+.featured-image {
+  margin: 2rem auto 3rem;
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+}
+
+.featured-portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.featured-portrait:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.featured-caption {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
 /* Content Images */
@@ -467,6 +498,15 @@ blockquote cite {
   text-decoration: none;
 }
 
+/* README.md Image Styling */
+.markdown-body img[alt="Father Bae"] {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: block;
+  margin: 2rem auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .main-nav ul {
@@ -516,6 +556,14 @@ blockquote cite {
     float: none;
     max-width: 100%;
     margin: 1.5rem 0;
+  }
+  
+  .hero-image {
+    max-width: 80%;
+  }
+  
+  .featured-image {
+    max-width: 80%;
   }
 }
 

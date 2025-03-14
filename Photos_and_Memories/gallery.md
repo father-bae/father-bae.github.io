@@ -1,5 +1,10 @@
 # Father Joseph Veneroso Photo Gallery
 
+<div class="featured-image">
+  <img src="../assets/images/father-bae.jpg" alt="Father Joseph Veneroso (Father Bae)" class="featured-portrait">
+  <div class="featured-caption">Father Joseph Veneroso (Father Bae)</div>
+</div>
+
 <div class="gallery">
   <div class="gallery-item">
     <img src="../assets/images/2024-newyears.JPG" alt="Father Bae celebrating New Year's 2024">
